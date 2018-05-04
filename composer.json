@@ -1,0 +1,13 @@
+{
+    "name": "creode/wordpress",
+    "description": "Creode WordPress package",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gareth Midwood",
+            "email": "gareth.midwood@creode.co.uk"
+        }
+    ],
+    "require": {}
+}
