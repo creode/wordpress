@@ -1,13 +1,25 @@
 {
     "name": "creode/wordpress",
     "description": "Creode WordPress package",
-    "type": "project",
+    "type": "package",
     "license": "MIT",
+    "homepage": "http://www.creode.co.uk",
     "authors": [
         {
             "name": "Gareth Midwood",
             "email": "gareth.midwood@creode.co.uk"
         }
     ],
-    "require": {}
+    "support": {
+        "email": "contact@creode.co.uk"
+    },
+    "repositories" : [
+          {
+               "type" : "composer",
+               "url"  : "https://wpackagist.org"
+          }
+    ],
+    "require": {
+        "johnpbloch/wordpress": "4.9.5"
+    }
 }
